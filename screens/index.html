@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <header class="nav__principal">
+        <a href="./index.html" class="link__fenix"><img src="../assets/img/logoFenix.png" alt="logo" width="80px" class="img__logo">Fenix Corp MX</a>
+        <section class="menu__principal">
+            <ul class="opciones__menu">
+                <li class="menu__item"><a href="./index.html" class="link__menu">Home</a></li>
+                <li class="menu__item"><a href="./Nosotros.html" class="link__menu">Nosotros</a></li>
+                <li class="menu__item"><a href="./Servicios.html" class="link__menu">Servicios</a></li>
+                <li class="menu__item"><a href="./Contacto.html" class="link__menu">Contacto</a></li>
+                <li class="menu__item"><a href="./Clientes.html" class="link__menu">Clientes</a></li>
+            </ul>
+        </section>
+    </header>
+    <section class="container__principal">
+        <h2>Lista de Tareas</h2>
+        <section class="container__tareas">
+            <table class="lista__tareas">
+                <thead class="encabezado">
+                    <tr class="encabezado__tabla">
+                        <th>Tarea</th>
+                        <th>Fecha</th>
+                        <th><a href="" class="link__menu">Nueva Tarea</a></th>
+                    </tr>
+                </thead>
+                <tbody data-table>
+
+                </tbody>
+            </table>
+        </section>
+    </section>
+    <script type="module" src="../controllers/taskController.js"></script>
+</body>
+</html>

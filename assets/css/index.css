@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(190, 227, 215);
+}
+
+.nav__principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu__principal{
+    margin: 0;
+    padding: 0;
+}
+
+.opciones__menu{
+    display: flex;
+    height: 100%;
+}
+
+.opciones__menu :hover{
+    background-color: darkcyan;
+    color: aqua;
+}
+
+.menu__item{
+    display: flex;
+    padding: 10px 10px;
+    text-decoration: none; 
+}
+
+.link__menu{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:deeppink
+}
+
+.img__logo{
+    margin-left: 20px;
+}
+
+.link__fenix{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.container__tareas{
+    display: flex;
+    justify-content: center;
+}
+
+.lista__tareas{
+    width: 50%;
+    /* border: 0px solid #000; */
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #d0cbcb;
+}
+.lista__tareas th{
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.encabezado{
+    border-bottom: 1px solid #000;
+}
+
+.encabezado__tabla{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid #150101;
+}
+
+.td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista__tarea{
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
